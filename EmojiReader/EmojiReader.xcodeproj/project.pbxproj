@@ -15,6 +15,7 @@
 		7396ADF226C0585D0034C66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7396ADF026C0585D0034C66A /* LaunchScreen.storyboard */; };
 		7396ADFA26C05BE90034C66A /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396ADF926C05BE90034C66A /* EmojiTableViewController.swift */; };
 		7396ADFC26C069960034C66A /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396ADFB26C069960034C66A /* EmojiTableViewCell.swift */; };
+		7396ADFE26C06F970034C66A /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396ADFD26C06F970034C66A /* EmojiModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7396ADF326C0585D0034C66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7396ADF926C05BE90034C66A /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 		7396ADFB26C069960034C66A /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
+		7396ADFD26C06F970034C66A /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				7396ADE726C0585A0034C66A /* SceneDelegate.swift */,
 				7396ADE926C0585A0034C66A /* ViewController.swift */,
 				7396ADEB26C0585A0034C66A /* Main.storyboard */,
+				7396ADFD26C06F970034C66A /* EmojiModel.swift */,
 				7396ADFB26C069960034C66A /* EmojiTableViewCell.swift */,
 				7396ADF926C05BE90034C66A /* EmojiTableViewController.swift */,
 				7396ADEE26C0585D0034C66A /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				7396ADFA26C05BE90034C66A /* EmojiTableViewController.swift in Sources */,
 				7396ADEA26C0585A0034C66A /* ViewController.swift in Sources */,
+				7396ADFE26C06F970034C66A /* EmojiModel.swift in Sources */,
 				7396ADFC26C069960034C66A /* EmojiTableViewCell.swift in Sources */,
 				7396ADE626C0585A0034C66A /* AppDelegate.swift in Sources */,
 				7396ADE826C0585A0034C66A /* SceneDelegate.swift in Sources */,
