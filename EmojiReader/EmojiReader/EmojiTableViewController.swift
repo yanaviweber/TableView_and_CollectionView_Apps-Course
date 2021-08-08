@@ -20,8 +20,8 @@ class EmojiTableViewController: UITableViewController {
         self.navigationItem.leftBarButtonItem = self.editButtonItem
         
         
-        //register of my custom cell
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        //register of my custom cell when i began work with custom cell parameters
+        // tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
 
     // MARK: - Table view data source
@@ -38,11 +38,18 @@ class EmojiTableViewController: UITableViewController {
 
    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
-        // Configure the mine custom cell
-        cell.textLabel?.text  = "\(indexPath)"
+        //Set my custom cell when i began work with custom cell parameters
+        //let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        //Configurating
+        //cell.textLabel?.text  = "\(indexPath)"
 
+        
+        //Current configure and params of the cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "emojiCell", for: indexPath) as! EmojiTableViewCell
+        
+        cell.emojiLabel.text = "🥰"
+        
         return cell
     }
 
