@@ -20,6 +20,12 @@ class EmojiTableViewCell: UITableViewCell {
         super.awakeFromNib()
 
     }
+    
+    func set(object: Emoji){
+        self.emojiLabel.text = object.emoji
+        self.nameLabel.text = object.name
+        self.descriptionLabel.text = object.description
+    }
 /*
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

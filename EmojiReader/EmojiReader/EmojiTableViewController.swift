@@ -54,11 +54,7 @@ class EmojiTableViewController: UITableViewController {
         //Current configure and params of the cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "emojiCell", for: indexPath) as! EmojiTableViewCell
         let object = objects[indexPath.row]
-        cell.emojiLabel.text = object.emoji
-        cell.nameLabel.text = object.name
-        cell.descriptionLabel.text = object.description
-        
-        //cell.emojiLabel.text = "🥰"
+        cell.set(object: object)
         
         return cell
     }
