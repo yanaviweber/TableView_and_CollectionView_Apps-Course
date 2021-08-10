@@ -188,7 +188,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="descriptionTextField" destination="waa-wE-MQH" id="acS-uG-zgz"/>
-                        <outlet property="emojiTextField" destination="QJl-Rh-4v5" id="gAD-Xo-OJ6"/>
+                        <outlet property="emojiTextField" destination="E3o-0P-WIh" id="Bpt-Ip-2uZ"/>
                         <outlet property="nameTextField" destination="pJF-ao-QBn" id="4UL-9H-DcN"/>
                         <outlet property="saveButton" destination="df1-Y2-czA" id="XXT-oV-xiM"/>
                     </connections>
