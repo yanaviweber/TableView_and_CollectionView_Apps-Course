@@ -174,6 +174,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="ewp-P1-xdl"/>
+                    <connections>
+                        <outlet property="descriptionTextField" destination="waa-wE-MQH" id="acS-uG-zgz"/>
+                        <outlet property="emojiTextField" destination="QJl-Rh-4v5" id="gAD-Xo-OJ6"/>
+                        <outlet property="nameTextField" destination="pJF-ao-QBn" id="4UL-9H-DcN"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q94-Hl-Q1h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
