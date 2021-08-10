@@ -83,10 +83,10 @@
             </objects>
             <point key="canvasLocation" x="621.73913043478262" y="-56.25"/>
         </scene>
-        <!--Table View Controller-->
+        <!--New Emoji Table View Controller-->
         <scene sceneID="mCa-Pz-msQ">
             <objects>
-                <tableViewController id="Roo-7z-VCj" sceneMemberID="viewController">
+                <tableViewController id="Roo-7z-VCj" customClass="NewEmojiTableViewController" customModule="EmojiReader" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7fH-ki-TZ9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
