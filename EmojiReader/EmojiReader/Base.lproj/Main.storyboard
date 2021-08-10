@@ -101,10 +101,13 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3o-0P-WIh">
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3o-0P-WIh" userLabel="Emoji Text Field">
                                                     <rect key="frame" x="16" y="0.0" width="382" height="34"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="textChanged:" destination="Roo-7z-VCj" eventType="editingChanged" id="sSf-zL-Ey7"/>
+                                                    </connections>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -130,6 +133,9 @@
                                                     <rect key="frame" x="16" y="0.0" width="382" height="34"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="textChanged:" destination="Roo-7z-VCj" eventType="editingChanged" id="HnU-Xp-0J4"/>
+                                                    </connections>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -155,6 +161,9 @@
                                                     <rect key="frame" x="16" y="0.0" width="382" height="34"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="textChanged:" destination="Roo-7z-VCj" eventType="editingChanged" id="cjJ-lB-qdK"/>
+                                                    </connections>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -181,6 +190,7 @@
                         <outlet property="descriptionTextField" destination="waa-wE-MQH" id="acS-uG-zgz"/>
                         <outlet property="emojiTextField" destination="QJl-Rh-4v5" id="gAD-Xo-OJ6"/>
                         <outlet property="nameTextField" destination="pJF-ao-QBn" id="4UL-9H-DcN"/>
+                        <outlet property="saveButton" destination="df1-Y2-czA" id="XXT-oV-xiM"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q94-Hl-Q1h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
