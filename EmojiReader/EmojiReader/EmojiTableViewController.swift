@@ -30,6 +30,11 @@ class EmojiTableViewController: UITableViewController {
         // tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
 
+    @IBAction func unwindSegue(segue: UIStoryboardSegue) {
+        
+    }
+    
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
