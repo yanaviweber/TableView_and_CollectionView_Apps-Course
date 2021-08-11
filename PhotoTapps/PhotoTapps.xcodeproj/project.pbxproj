@@ -13,6 +13,7 @@
 		737C69EC26C446CE00AEAD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737C69EB26C446CE00AEAD5E /* Assets.xcassets */; };
 		737C69EF26C446CE00AEAD5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737C69ED26C446CE00AEAD5E /* LaunchScreen.storyboard */; };
 		737C69F726C4483000AEAD5E /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C69F626C4483000AEAD5E /* PhotosCollectionViewController.swift */; };
+		737C69F926C44D1700AEAD5E /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C69F826C44D1700AEAD5E /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		737C69EE26C446CE00AEAD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		737C69F026C446CE00AEAD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		737C69F626C4483000AEAD5E /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		737C69F826C44D1700AEAD5E /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				737C69E426C446CB00AEAD5E /* SceneDelegate.swift */,
 				737C69E826C446CB00AEAD5E /* Main.storyboard */,
 				737C69F626C4483000AEAD5E /* PhotosCollectionViewController.swift */,
+				737C69F826C44D1700AEAD5E /* PhotoCell.swift */,
 				737C69EB26C446CE00AEAD5E /* Assets.xcassets */,
 				737C69ED26C446CE00AEAD5E /* LaunchScreen.storyboard */,
 				737C69F026C446CE00AEAD5E /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737C69F926C44D1700AEAD5E /* PhotoCell.swift in Sources */,
 				737C69E326C446CB00AEAD5E /* AppDelegate.swift in Sources */,
 				737C69E526C446CB00AEAD5E /* SceneDelegate.swift in Sources */,
 				737C69F726C4483000AEAD5E /* PhotosCollectionViewController.swift in Sources */,
