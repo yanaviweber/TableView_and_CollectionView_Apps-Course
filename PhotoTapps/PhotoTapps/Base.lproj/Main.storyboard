@@ -29,7 +29,21 @@
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="I1U-hh-5l8">
                                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XyX-Ax-AAt">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="XyX-Ax-AAt" secondAttribute="trailing" id="7QN-Rw-BoE"/>
+                                        <constraint firstItem="XyX-Ax-AAt" firstAttribute="top" secondItem="I1U-hh-5l8" secondAttribute="top" id="jsu-DW-pWW"/>
+                                        <constraint firstAttribute="bottom" secondItem="XyX-Ax-AAt" secondAttribute="bottom" id="mqp-gt-f8a"/>
+                                        <constraint firstItem="XyX-Ax-AAt" firstAttribute="leading" secondItem="I1U-hh-5l8" secondAttribute="leading" id="p8T-wf-eyK"/>
+                                    </constraints>
                                 </collectionViewCellContentView>
+                                <connections>
+                                    <outlet property="travelPlaceImageView" destination="XyX-Ax-AAt" id="Npw-lp-24n"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
