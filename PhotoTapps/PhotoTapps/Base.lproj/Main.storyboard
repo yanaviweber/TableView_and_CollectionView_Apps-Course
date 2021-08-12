@@ -44,7 +44,7 @@
                                 </collectionViewCellContentView>
                                 <connections>
                                     <outlet property="travelPlaceImageView" destination="XyX-Ax-AAt" id="Npw-lp-24n"/>
-                                    <segue destination="Yy5-nb-nYJ" kind="presentation" id="lte-1P-caL"/>
+                                    <segue destination="Yy5-nb-nYJ" kind="presentation" identifier="pickPhotoSegue" id="lte-1P-caL"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -79,6 +79,9 @@
                                 <state key="normal" title=" Tap to Share" image="square.and.arrow.up" catalog="system">
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="Yy5-nb-nYJ" eventType="touchUpInside" id="uI4-hR-9uh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mdv-t1-nPu"/>
@@ -91,6 +94,9 @@
                             <constraint firstItem="Nqz-Hf-Pa0" firstAttribute="leading" secondItem="mdv-t1-nPu" secondAttribute="leading" id="zDV-lR-ENa"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="photoImageView" destination="Nqz-Hf-Pa0" id="reE-44-Ip2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T7m-kw-28M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
